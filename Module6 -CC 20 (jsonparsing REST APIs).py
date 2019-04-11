@@ -47,7 +47,9 @@ data={
 	"Branch": "B.Tech CSE",
 	"College_Name": "JECRC University"
 }
-
+url3="http://samples.openweathermap.org/data/2.5/weather?q=London,uk&appid=b6907d289e10d714a6e88b30761fae22"
+r=requests.get(url3)
+print(r.json)
 #first need to import json and then we can data and header is neeeded  in  this
 #dumps fuction used to convert dic into json
 #loads funtion used to convert json into dic
